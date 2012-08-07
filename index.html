@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="resources/images/icon@2x.png"/>
+    <link rel="apple-touch-startup-image" href="resources/images/splash.png" />
+
+    <title>Experimentando con datos abiertos.</title>
+
+    <link rel="stylesheet" href="http://kinout.tapquo.com/build/kinout-1.0.css">
+    <link rel="stylesheet" href="assets/css/theme.kinout.css">
+    <link href="assets/javascript/rainbow/themes/blackboard.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="kinout">
+
+        <section>
+            <article>
+                <h1>Navarraencolores.com </h1>
+                <h4><mark>Experimentando con Opendata </mark></h4>
+            </article>
+        </section>
+        
+        <section>
+            <article>
+                <header>
+                    <h2><mark>Soy Karlos g Liberal</mark></h2>
+                    <h4>...también se me conoce como patxangas</h4>
+                </header>
+                <div class="top">
+                    <span class="column big">
+                        <img src="assets/image/patxangas.jpg" class="bordered size_256 box">
+                        <h4><a href="http://twitter.com/patxangas"><mark>@patxangas</mark></a></h4>
+                    </span>
+                </div>
+                <div class="flecha"></div>
+            </article>
+          <article>
+            <h2> Investic <mark>Fuimos</mark></h2>
+            <div>
+              <img src="assets/image/investic.jpg" class="bordered size_50">
+            </div>
+          </article>
+          <article>
+            <h2>Interzonas <mark> Seremos</mark></h2>
+            <br>
+            <h6>Nuestra propuesta</h6>
+           <div>
+           Release Early, Release Often y Lánzalo como sea.
+            Somos código y hacemos código, queremos que nuestro código se use, se mejore, se ensucie se mezcle, mute o muera. El código es como un ser vivo que hasta ahora lo teníamos encerrado en nuestras cuatro paredes, ahora preferimos que como un virus viva libre y ocurra lo que tenga que ocurrir con él
+           </div>
+          </article>
+          <article>
+          <blockquote>
+           <mark>Libera rápido, libera pronto, y haz un bonito cadáver<mark>
+           </blockquote>
+          </article>
+          
+          <article data-size="middle">
+            <h2> Que vamos a hacer </h2>
+                <br>
+                <div><h4>#drupal #nodejs #visaulizacion de datos, #fluidinfo, #metora, #backbone, #nodejitsu, #javascript, #arduino</h4></div>
+                <br>
+                <div class="box"><h3><mark>Pero en definitiva lo que queremos ser es...<mark><h3></div>
+          </article>
+          <article>
+              <header class="box">
+                <h2><mark>Modernos<mark></h2>
+              </header>
+              <img src="assets/image/recortable_modernos.jpg" class="bordered size_50">
+          </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Navarraencolores.com</h2>
+                <h4><mark>Experimentando con Opendata.</mark></h4>
+
+                <div>
+                  Navarraencolores.com es una puesta en práctica de la experimentación que estábamos realizando entorno a los datos abiertos. 
+                </div>  
+                <div>
+                  Levábamos tiempo "kuskuseando" en el ambiente de node.js y los compañeros (ex)Drupaleros de DevelopmentSeed habían creado el proyecto Tilemill 
+                </div>
+                <div>
+                  El concurso Opendata Navarra organizado por el Gobierno de Navarra, nos brindó la oportunidad de llevar a la práctica el esfuerzo dedicado a la experimentación e investigación
+                </div>
+                 <div class="flecha"></div>
+            </article>
+
+            <article>
+                <img src="assets/image/bosques.png" class="bordered size_50">
+            </article>
+
+            <article>
+                <img src="assets/image/agua.png" class="bordered size_50">
+            </article>
+
+            <article>
+                <img src="assets/image/paisajes.png" class="bordered size_50">
+            </article>
+            
+            <article>
+              <div class="box">
+                <h2>Lo vemos en detalle </h2>
+              </div>
+            </article>
+
+        </section>
+        
+        <section>
+            <article>
+                <h2> Node.js<h2>
+                <br>
+                <img src="assets/image/naranja.jpg" class="bordered size_50">
+                <h3><mark>Ya están aquííííííííííííí<mark></h3>
+                 <div class="flecha"></div>
+            </article>
+            <article>
+                <h2> Qué es Node.js</h2> 
+                <img src="assets/image/node_turtle.png" class="bordered size_50">
+            </article>
+          <article data-size="middle">
+                <h2> Qué es Node.js</h2> 
+                <div class="box">
+                  Node.js es un entorno JavaScript del lado de servidor que utiliza un modelo asíncrono y dirigido por eventos.
+                  Node usa el motor de JavaScript V8 de Google: una VM tremendamente rápida y de gran calidad.
+                </div>
+                <br>
+                <img src="assets/image/apache-benchmark.png" class="bordered size_50">
+          </article>
+          <article>
+           <h2> Un poco de código </h2> 
+           <pre class="margin-top" contenteditable="true">
+            <code data-language="javascript">
+var http = require('http');
+var s = http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+});
+s.listen(8000);
+console.log('Server running!');
+            </code>          
+            </pre>
+            <h4>Lo iniciamos</h4>
+            <pre class="margin-top" contenteditable="tue">
+            <code data-language="javascript">
+$ node hello_world.js
+Server Running!
+            </code>
+            </pre>
+            <div>
+            Node le dice al sistema que le avise (epoll, kqueue, etc.) cuando un cliente se conecta. Mientras tanto se pondrá a dormir (sleep). Si alguien se conecta, se ejecuta el callback anónimo definido en createServer. 
+Si abrimos http://localhost:8000/ en el navegador entonces obtenemos "Hello World". 
+<div>
+          </article>
+        </section>
+
+        <section>
+            <article>
+                <img src="assets/image/DevelopmentSeed.png" class="bordered size_50">
+                <br>
+                <img src="assets/image/developmentseed.jpg" class="bordered size_50">
+            </article>
+        </section>
+        <section>
+            <article>
+            <h2>MapBox Tilemill</h2>
+                <br>
+                <img src="assets/image/tilemill.png" class="bordered size_50">
+                <br>
+                <img src="assets/image/github_tilemill.png" class="bordered size_50">
+                <br>
+                <h3><mark>Demo</mark></h3>
+            </article>
+        </section>
+        
+        <section>
+            <article>
+            <h2>Tilestream</h2>
+                <br>
+                <img src="assets/image/tilestream.png" class="bordered size_50">
+                <br>
+                <h3><mark>Demo</mark></h3>
+            </article>
+        </section>
+        
+        <section>
+            <article>
+            <h2>Ahora lo cocinamos todo con <mark>Drupal</mark></h2>
+                <br>
+                <br>
+                <img src="assets/image/drupal.png" class="bordered size_50">
+                <br>
+                <div class="flecha"></div>
+            </article>
+            <article>
+            <h2>un poco de <mark>Openlayers<mark></h2>
+                <br>
+                <br>
+                <div class="box">
+                <img src="assets/image/openlayers_monster.png">
+                <br>
+                </div>
+                <br>
+                <h3><mark>Demo</mark></h3>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <header>
+                <h2>Enlaces, referecias y <mark>agradecimientos</mark></h2>
+                </header>
+                <div>
+                  <h3><mark>Los creadores en la sombra </mark></h3>
+                        <ul>
+                            <li>Aitor Resano Lafuente <mark> @Aitor_rl</mark></li>
+                            <li>Miren Arrese Alverez <mark> @Merisu</mark></li>
+                        </ul>
+                </div>
+                <div>
+                <h3><mark>Referencias y enlaces</mark></h3>
+                        <ul>
+                            <li>Para la charla hemos usado Kinout</li>
+                            <li>Foto modernos: El pais</li>
+                            <li>Naranja mecánica: Swotti.com</li>
+                            <li>Foto tortuga: substack.net</li>
+                            <li>Info node.js: rmunoz.net</li>
+                        </ul>
+                </div>
+            </article>
+        </section>
+
+    </div>
+    <script src="assets/javascript/QuoJS.js"></script>
+    <script src="assets/javascript//raf.js"></script>
+    <script src="http://kinout.tapquo.com/build/kinout-1.0.js"></script>
+    <script>
+        $$(document).ready(function() {
+            KINOUT.init();
+        });
+    </script>
+    <script src="assets/javascript/rainbow/rainbow.min.js"></script>
+    <script src="assets/javascript/rainbow/language/generic.js"></script>
+
+</body>
+</html>
