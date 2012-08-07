@@ -1,4 +1,11 @@
-charla_navarraencolores
+charla navarraencolores
 =======================
 
-La charla del primer betabears que se hizo en pamplona sobre Navarraencolores.com y tilemile
+Esta es la charla que se preparo para el primer betabears que se realizo en Pamplona/Iruña en el [cocoworking pamplona](http://www.cocoworking.com/)
+
+TODO
+====
+
+Faltan los video en la sección de demos
+
+Diseño de la plantilla del kinout [@aitor_rl](http://twiiter.com/aitor_rl)
